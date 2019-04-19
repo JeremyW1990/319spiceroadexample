@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	background-color: lavender;
+	height: 100vh;
+	width: 100vw;
+}
+.gameContainer{
+	height: 100%;
+	display: flex;
+}
+.playerArea{
+	height: 100%;
+	width: 50%;
+	background-color: lightyellow;
+}
+.gameBoard{
+	height: 100%;
+	width: 50%;
+	background-color: lightgreen;
+}
+.cityCards{
+	height: 50%;
+	background-color: sandybrown;
+}
+.spiceCards{
+	height: 50%;
+	background-color: pink;
+}
+.playerContainer{
+	height: 20%;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.cardContainer{
+	height: 100px;
+	width: 75px;
+	border: 1px solid black;
+	float: left;
+	border-radius: 5%;
+}
+
+
+
+
+
